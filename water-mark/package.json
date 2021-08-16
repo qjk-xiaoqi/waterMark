@@ -1,0 +1,19 @@
+{
+  "name": "water-mark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./type2/index.js",
+  "scripts": {
+    "build": "babel type3/src -d type3/dist",
+    "browserify": "browserify type3/dist/index.js -o type3/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^17.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
