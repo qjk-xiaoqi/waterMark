@@ -18,7 +18,7 @@ var processData = exports.processData = function processData(ctx, originData) {
       // a 通道不做处理
       continue;
     } else {
-      // 关闭其他通道
+      // 关闭其他通道 这样处理更美观
       data[i] = 0;
     }
   }

@@ -6,6 +6,7 @@ const warkMarkHeight = 100
 const { clientWidth, clientHeight } = document.documentElement || document.body
 const clown = Math.ceil(clientWidth / warkMarkWidth)
 const rows = Math.ceil(clientHeight / warkMarkHeight)
+// 水印 wrapper
 const waterWrapper = document.createElement('div')
 waterWrapper.setAttribute('class', 'water-wrapper')
 cssHelper(waterWrapper, {
